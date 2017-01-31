@@ -10,7 +10,7 @@
 # > 10
 # > 15
 
-def multiply_by arr, num
+def multiply_by(arr, num)
   arr.map do |a|
     a * num
   end

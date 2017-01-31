@@ -18,8 +18,8 @@ contacts = {
   Daniel: '777-777-7777'
 }
 
-def print_contacts contacts
-  contacts.each do |k,v|
+def print_contacts(contacts)
+  contacts.each do |k, v|
     puts "#{k} has a phone number of #{v}"
   end
 end

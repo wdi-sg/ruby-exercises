@@ -7,7 +7,7 @@
 #
 # > {"b" => 1, "a" => 3, "n" => 2}
 
-def letter_count word
+def letter_count(word)
   occurences = {}
   word.split('').each do |letter|
     occurences[letter] = (occurences[letter] || 0) + 1
