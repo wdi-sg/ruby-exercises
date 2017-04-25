@@ -8,4 +8,14 @@
 # factorial(5)
 #
 # > 120
-#
+# https://www.youtube.com/watch?v=Mfk_L4Nx2ZI
+
+def factorial(number)
+  if number == 0
+    1
+  else
+    p  number * factorial(number-1)
+  end
+end
+
+factorial(5)
