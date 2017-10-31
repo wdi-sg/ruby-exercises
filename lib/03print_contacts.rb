@@ -17,3 +17,20 @@ contacts = {
   Lenny: '444-444-4444',
   Daniel: '777-777-7777'
 }
+
+# key = contacts.keys[0] // find the key index
+# value = contacts.values[0] // find the value index
+# p key
+# p value
+
+def print_contacts(contacts)
+  contacts.each do |key, value|
+    # p "#{key}"
+  # p  "#{key} has a phone number #{value}."
+  end
+
+end
+
+
+
+print_contacts(contacts)
